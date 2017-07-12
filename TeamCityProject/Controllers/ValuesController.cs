@@ -14,7 +14,7 @@ namespace TeamCityProject.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "val1", "val2", "val3" };
+            return new string[] { "val1", "val2" };
         }
         [HttpGet("{id}")]
         public string Get(int id)
